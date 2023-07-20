@@ -76,7 +76,7 @@ namespace Express
                 chkRememberMe.Checked = Properties.Settings.Default.App_UserRemember;
             }
 
-            clsUtility.ExecuteSQLQuery("SELECT * FROM Users");
+            clsUtility.ExecuteSQLQuery("SELECT * FROM users");
             if (!(clsUtility.sqlDT.Rows.Count > 0))
             {
                 clsUtility.ExecuteSQLQuery("INSERT INTO Users (FullName,UserName,Privilege,RegDate,Password,Can_Add,Can_Edit,Can_Delete,Can_Print) VALUES ('Administrator','admin','Administrator','" + DateTime.Now.ToString("yyyy-MM-dd") + "','827CCB0EEA8A706C4C34A16891F84E7B','Y','Y','Y','Y')");

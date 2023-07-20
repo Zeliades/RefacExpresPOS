@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-Express", "B-Express\B-Express.csproj", "{FE925070-734D-4803-9008-7B01994B44AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29F274F7-5988-4E4D-A479-D6609A38C61B} = {29F274F7-5988-4E4D-A479-D6609A38C61B}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B-ExpressCore", "B-ExpressCore\B-ExpressCore.csproj", "{29F274F7-5988-4E4D-A479-D6609A38C61B}"
 EndProject
@@ -24,5 +27,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E4C73BD-0679-43FC-B11C-1F40718D34F8}
 	EndGlobalSection
 EndGlobal

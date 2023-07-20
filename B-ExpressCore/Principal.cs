@@ -23,32 +23,32 @@ namespace Express
 
         private void btnSetUp_Click(object sender, EventArgs e)
         {
-            cmsSetUp.Show(btnSetUp, new Point(5, 63)); 
+            cmsSetUp.Show(btnSetUp, new Point(5, 63));
         }
 
         private void btnStock_Click(object sender, EventArgs e)
         {
-            cmsStock.Show(btnStock, new Point(5, 63)); 
+            cmsStock.Show(btnStock, new Point(5, 63));
         }
 
         private void btnSale_Click(object sender, EventArgs e)
         {
-            cmsSale.Show(btnSale, new Point(5, 63)); 
+            cmsSale.Show(btnSale, new Point(5, 63));
         }
 
         private void btnPurchase_Click(object sender, EventArgs e)
         {
-            cmsPurchase.Show(btnPurchase, new Point(5, 63)); 
+            cmsPurchase.Show(btnPurchase, new Point(5, 63));
         }
 
         private void btnReturn_Click(object sender, EventArgs e)
         {
-            cmsReturn.Show(btnReturn, new Point(5, 63)); 
+            cmsReturn.Show(btnReturn, new Point(5, 63));
         }
 
         private void btnItem_Click(object sender, EventArgs e)
         {
-            cmsItem.Show(btnItem, new Point(5, 63)); 
+            cmsItem.Show(btnItem, new Point(5, 63));
         }
 
         private void btnCredit_Click(object sender, EventArgs e)
@@ -142,171 +142,175 @@ namespace Express
             }
         }
 
-        private void LoadLanguegePack() {
-            if (Properties.Settings.Default.App_Default_Language) {
-                try {
-                XmlDocument xmlDocument = new XmlDocument();
-                xmlDocument.Load(@"Language\" + Properties.Settings.Default.App_Language + ".xml");
-                XmlNodeList languageNodes = xmlDocument.GetElementsByTagName("language");
-                foreach (XmlNode languageNode in languageNodes)
+        private void LoadLanguegePack()
+        {
+            if (Properties.Settings.Default.App_Default_Language)
+            {
+                try
                 {
-                    XmlNode authorNode = languageNode["lnkChangePassword"];
-                    lnkChangePassword.Text = authorNode.InnerText;
+                    XmlDocument xmlDocument = new XmlDocument();
+                    xmlDocument.Load(@"Language\" + Properties.Settings.Default.App_Language + ".xml");
+                    XmlNodeList languageNodes = xmlDocument.GetElementsByTagName("language");
+                    foreach (XmlNode languageNode in languageNodes)
+                    {
+                        XmlNode authorNode = languageNode["lnkChangePassword"];
+                        lnkChangePassword.Text = authorNode.InnerText;
 
-                    XmlNode SetUp = languageNode["btnSetUp"];
-                    btnSetUp.Text = SetUp.InnerText;
+                        XmlNode SetUp = languageNode["btnSetUp"];
+                        btnSetUp.Text = SetUp.InnerText;
 
-                    XmlNode Item = languageNode["btnItem"];
-                    btnItem.Text = Item.InnerText;
+                        XmlNode Item = languageNode["btnItem"];
+                        btnItem.Text = Item.InnerText;
 
-                    XmlNode Stock = languageNode["btnStock"];
-                    btnStock.Text = Stock.InnerText;
+                        XmlNode Stock = languageNode["btnStock"];
+                        btnStock.Text = Stock.InnerText;
 
-                    XmlNode Sale = languageNode["btnSale"];
-                    btnSale.Text = Sale.InnerText;
+                        XmlNode Sale = languageNode["btnSale"];
+                        btnSale.Text = Sale.InnerText;
 
-                    XmlNode Purchase = languageNode["btnPurchase"];
-                    btnPurchase.Text = Purchase.InnerText;
+                        XmlNode Purchase = languageNode["btnPurchase"];
+                        btnPurchase.Text = Purchase.InnerText;
 
-                    XmlNode Return = languageNode["btnReturn"];
-                    btnReturn.Text = Return.InnerText;
+                        XmlNode Return = languageNode["btnReturn"];
+                        btnReturn.Text = Return.InnerText;
 
-                    XmlNode Credit = languageNode["btnCredit"];
-                    btnCredit.Text = Credit.InnerText;
+                        XmlNode Credit = languageNode["btnCredit"];
+                        btnCredit.Text = Credit.InnerText;
 
-                    XmlNode Employee = languageNode["btnEmployee"];
-                    btnEmployee.Text = Employee.InnerText;
+                        XmlNode Employee = languageNode["btnEmployee"];
+                        btnEmployee.Text = Employee.InnerText;
 
-                    XmlNode Expense = languageNode["btnExpense"];
-                    btnExpense.Text = Expense.InnerText;
+                        XmlNode Expense = languageNode["btnExpense"];
+                        btnExpense.Text = Expense.InnerText;
 
-                    XmlNode Report = languageNode["btnReport"];
-                    btnReport.Text = Report.InnerText;
+                        XmlNode Report = languageNode["btnReport"];
+                        btnReport.Text = Report.InnerText;
 
-                    XmlNode Admin = languageNode["btnAdmin"];
-                    btnAdmin.Text = Admin.InnerText;
+                        XmlNode Admin = languageNode["btnAdmin"];
+                        btnAdmin.Text = Admin.InnerText;
 
-                    XmlNode Tools = languageNode["btnTools"];
-                    btnTools.Text = Tools.InnerText;
+                        XmlNode Tools = languageNode["btnTools"];
+                        btnTools.Text = Tools.InnerText;
 
-                    XmlNode LogOut = languageNode["linkLogOut"];
-                    linkLogOut.Text = LogOut.InnerText;
+                        XmlNode LogOut = languageNode["linkLogOut"];
+                        linkLogOut.Text = LogOut.InnerText;
 
-                    XmlNode BusinessInformation = languageNode["tsmlBusinessInformation"];
-                    tsmlBusinessInformation.Text = BusinessInformation.InnerText;
+                        XmlNode BusinessInformation = languageNode["tsmlBusinessInformation"];
+                        tsmlBusinessInformation.Text = BusinessInformation.InnerText;
 
-                    XmlNode Customer = languageNode["tsmlCustomer"];
-                    tsmlCustomer.Text = Customer.InnerText;
+                        XmlNode Customer = languageNode["tsmlCustomer"];
+                        tsmlCustomer.Text = Customer.InnerText;
 
-                    XmlNode Supplier = languageNode["tsmlSupplier"];
-                    tsmlSupplier.Text = Supplier.InnerText;
+                        XmlNode Supplier = languageNode["tsmlSupplier"];
+                        tsmlSupplier.Text = Supplier.InnerText;
 
-                    XmlNode VAT = languageNode["tsmlVAT"];
-                    tsmlVAT.Text = VAT.InnerText;
+                        XmlNode VAT = languageNode["tsmlVAT"];
+                        tsmlVAT.Text = VAT.InnerText;
 
-                    XmlNode WareHouse = languageNode["tsmlWareHouse"];
-                    tsmlWareHouse.Text = WareHouse.InnerText;
+                        XmlNode WareHouse = languageNode["tsmlWareHouse"];
+                        tsmlWareHouse.Text = WareHouse.InnerText;
 
-                    XmlNode Shelf = languageNode["tsmlShelf"];
-                    tsmlShelf.Text = Shelf.InnerText;
-
-
-                    XmlNode ItemInformation = languageNode["tsmlItemInformation"];
-                    tsmlItemInformation.Text = ItemInformation.InnerText;
-
-                    XmlNode ListOfItem = languageNode["tsmlListOfItem"];
-                    tsmlListOfItem.Text = ListOfItem.InnerText;
-
-                    XmlNode Import = languageNode["tsmlImport"];
-                    tsmlImport.Text = Import.InnerText;
-
-                    XmlNode Barcode = languageNode["tsmlBarcode"];
-                    tsmlBarcode.Text = Barcode.InnerText;
+                        XmlNode Shelf = languageNode["tsmlShelf"];
+                        tsmlShelf.Text = Shelf.InnerText;
 
 
-                    XmlNode tStock = languageNode["tsmlStock"];
-                    tsmlStock.Text = tStock.InnerText;
+                        XmlNode ItemInformation = languageNode["tsmlItemInformation"];
+                        tsmlItemInformation.Text = ItemInformation.InnerText;
 
-                    XmlNode ExpiredItem = languageNode["tsmlExpiredItem"];
-                    tsmlExpiredItem.Text = ExpiredItem.InnerText;
+                        XmlNode ListOfItem = languageNode["tsmlListOfItem"];
+                        tsmlListOfItem.Text = ListOfItem.InnerText;
 
-                    XmlNode BadStock = languageNode["tsmlBadStock"];
-                    tsmlBadStock.Text = BadStock.InnerText;
+                        XmlNode Import = languageNode["tsmlImport"];
+                        tsmlImport.Text = Import.InnerText;
 
-                    XmlNode StockTransfer = languageNode["tsmlStockTransfer"];
-                    tsmlStockTransfer.Text = StockTransfer.InnerText;
-
-                    XmlNode tSales = languageNode["tsmlSales"];
-                    tsmlSales.Text = tSales.InnerText;
-
-                    XmlNode tPOS = languageNode["tsmlPOS"];
-                    tsmlPOS.Text = tPOS.InnerText;
-
-                    XmlNode tInvoiceList = languageNode["tsmlInvoiceList"];
-                    tsmlInvoiceList.Text = tInvoiceList.InnerText;
-
-                    XmlNode tPurchase = languageNode["tsmlPurchase"];
-                    tsmlPurchase.Text = tPurchase.InnerText;
-
-                    XmlNode tPurchaseList = languageNode["tsmlPurchaseList"];
-                    tsmlPurchaseList.Text = tPurchaseList.InnerText;
-
-                    XmlNode tSalesReturn = languageNode["tsmlSalesReturn"];
-                    tsmlSalesReturn.Text = tSalesReturn.InnerText;
-
-                    XmlNode tPurchaseReturn = languageNode["tsmlPurchaseReturn"];
-                    tsmlPurchaseReturn.Text = tPurchaseReturn.InnerText;
+                        XmlNode Barcode = languageNode["tsmlBarcode"];
+                        tsmlBarcode.Text = Barcode.InnerText;
 
 
-                    XmlNode tCreditSale = languageNode["tsmlCreditSale"];
-                    tsmlCreditSale.Text = tCreditSale.InnerText;
+                        XmlNode tStock = languageNode["tsmlStock"];
+                        tsmlStock.Text = tStock.InnerText;
 
-                    XmlNode tCreditPurchase = languageNode["tsmlCreditPurchase"];
-                    tsmlCreditPurchase.Text = tCreditPurchase.InnerText;
+                        XmlNode ExpiredItem = languageNode["tsmlExpiredItem"];
+                        tsmlExpiredItem.Text = ExpiredItem.InnerText;
 
-                    XmlNode tEmployee = languageNode["tsmlEmployee"];
-                    tsmlEmployee.Text = tEmployee.InnerText;
+                        XmlNode BadStock = languageNode["tsmlBadStock"];
+                        tsmlBadStock.Text = BadStock.InnerText;
 
-                    XmlNode tAttendance = languageNode["tsmlAttendance"];
-                    tsmlAttendance.Text = tAttendance.InnerText;
+                        XmlNode StockTransfer = languageNode["tsmlStockTransfer"];
+                        tsmlStockTransfer.Text = StockTransfer.InnerText;
 
-                    XmlNode tEmployeeSalary = languageNode["tsmlEmployeeSalary"];
-                    tsmlEmployeeSalary.Text = tEmployeeSalary.InnerText;
+                        XmlNode tSales = languageNode["tsmlSales"];
+                        tsmlSales.Text = tSales.InnerText;
+
+                        XmlNode tPOS = languageNode["tsmlPOS"];
+                        tsmlPOS.Text = tPOS.InnerText;
+
+                        XmlNode tInvoiceList = languageNode["tsmlInvoiceList"];
+                        tsmlInvoiceList.Text = tInvoiceList.InnerText;
+
+                        XmlNode tPurchase = languageNode["tsmlPurchase"];
+                        tsmlPurchase.Text = tPurchase.InnerText;
+
+                        XmlNode tPurchaseList = languageNode["tsmlPurchaseList"];
+                        tsmlPurchaseList.Text = tPurchaseList.InnerText;
+
+                        XmlNode tSalesReturn = languageNode["tsmlSalesReturn"];
+                        tsmlSalesReturn.Text = tSalesReturn.InnerText;
+
+                        XmlNode tPurchaseReturn = languageNode["tsmlPurchaseReturn"];
+                        tsmlPurchaseReturn.Text = tPurchaseReturn.InnerText;
 
 
-                    XmlNode tItemReport = languageNode["tsmlItemReport"];
-                    tsmlItemReport.Text = tItemReport.InnerText;
+                        XmlNode tCreditSale = languageNode["tsmlCreditSale"];
+                        tsmlCreditSale.Text = tCreditSale.InnerText;
 
-                    XmlNode tStockReport = languageNode["tsmlStockReport"];
-                    tsmlStockReport.Text = tStockReport.InnerText;
+                        XmlNode tCreditPurchase = languageNode["tsmlCreditPurchase"];
+                        tsmlCreditPurchase.Text = tCreditPurchase.InnerText;
 
-                    XmlNode tSalesReport = languageNode["tsmlSalesReport"];
-                    tsmlSalesReport.Text = tSalesReport.InnerText;
+                        XmlNode tEmployee = languageNode["tsmlEmployee"];
+                        tsmlEmployee.Text = tEmployee.InnerText;
+
+                        XmlNode tAttendance = languageNode["tsmlAttendance"];
+                        tsmlAttendance.Text = tAttendance.InnerText;
+
+                        XmlNode tEmployeeSalary = languageNode["tsmlEmployeeSalary"];
+                        tsmlEmployeeSalary.Text = tEmployeeSalary.InnerText;
 
 
-                    XmlNode tPurchaseReport = languageNode["tsmlPurchaseReport"];
-                    tsmlPurchaseReport.Text = tPurchaseReport.InnerText;
+                        XmlNode tItemReport = languageNode["tsmlItemReport"];
+                        tsmlItemReport.Text = tItemReport.InnerText;
 
-                    XmlNode tReturnReport = languageNode["tsmlReturnReport"];
-                    tsmlReturnReport.Text = tReturnReport.InnerText;
+                        XmlNode tStockReport = languageNode["tsmlStockReport"];
+                        tsmlStockReport.Text = tStockReport.InnerText;
 
-                    XmlNode tCreditReport = languageNode["tsmlCreditReport"];
-                    tsmlCreditReport.Text = tCreditReport.InnerText;
+                        XmlNode tSalesReport = languageNode["tsmlSalesReport"];
+                        tsmlSalesReport.Text = tSalesReport.InnerText;
 
-                    XmlNode tEmployeeReport = languageNode["tsmlEmployeeReport"];
-                    tsmlEmployeeReport.Text = tEmployeeReport.InnerText;
 
-                    XmlNode tExpenseReport = languageNode["tsmlExpenseReport"];
-                    tsmlExpenseReport.Text = tExpenseReport.InnerText;
+                        XmlNode tPurchaseReport = languageNode["tsmlPurchaseReport"];
+                        tsmlPurchaseReport.Text = tPurchaseReport.InnerText;
 
-                    XmlNode tLanguage = languageNode["tsmlLanguage"];
-                    tsmlLanguage.Text = tLanguage.InnerText;
+                        XmlNode tReturnReport = languageNode["tsmlReturnReport"];
+                        tsmlReturnReport.Text = tReturnReport.InnerText;
 
-                    XmlNode tResetDB = languageNode["tsmlResetDB"];
-                    tsmlResetDB.Text = tResetDB.InnerText;
+                        XmlNode tCreditReport = languageNode["tsmlCreditReport"];
+                        tsmlCreditReport.Text = tCreditReport.InnerText;
+
+                        XmlNode tEmployeeReport = languageNode["tsmlEmployeeReport"];
+                        tsmlEmployeeReport.Text = tEmployeeReport.InnerText;
+
+                        XmlNode tExpenseReport = languageNode["tsmlExpenseReport"];
+                        tsmlExpenseReport.Text = tExpenseReport.InnerText;
+
+                        XmlNode tLanguage = languageNode["tsmlLanguage"];
+                        tsmlLanguage.Text = tLanguage.InnerText;
+
+                        XmlNode tResetDB = languageNode["tsmlResetDB"];
+                        tsmlResetDB.Text = tResetDB.InnerText;
+                    }
                 }
-                }
-                catch(Exception ex){
+                catch (Exception ex)
+                {
                     MessageBox.Show("Error : " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -352,7 +356,8 @@ namespace Express
                 btnAdmin.Enabled = false;
                 btnTools.Enabled = false;
             }
-            else if (clsUtility.UsersPrivilege == "Sales") {
+            else if (clsUtility.UsersPrivilege == "Sales")
+            {
                 btnSetUp.Enabled = false;
                 btnItem.Enabled = false;
                 btnStock.Enabled = true;
@@ -623,7 +628,7 @@ namespace Express
 
         private void lnkChangePassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           //Change Password
+            //Change Password
             CambiarPassword frmChangePassword = Application.OpenForms["frmChangePassword"] as CambiarPassword;
             if (frmChangePassword != null)
             {

@@ -28,1061 +28,1033 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.lblClock = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.lnkChangePassword = new System.Windows.Forms.LinkLabel();
-            this.linkLogOut = new System.Windows.Forms.LinkLabel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.Label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panelTrading = new System.Windows.Forms.Panel();
-            this.btnTools = new System.Windows.Forms.Button();
-            this.btnAdmin = new System.Windows.Forms.Button();
-            this.btnReport = new System.Windows.Forms.Button();
-            this.btnExpense = new System.Windows.Forms.Button();
-            this.btnEmployee = new System.Windows.Forms.Button();
-            this.btnCredit = new System.Windows.Forms.Button();
-            this.btnReturn = new System.Windows.Forms.Button();
-            this.btnPurchase = new System.Windows.Forms.Button();
-            this.btnSale = new System.Windows.Forms.Button();
-            this.btnStock = new System.Windows.Forms.Button();
-            this.btnItem = new System.Windows.Forms.Button();
-            this.btnSetUp = new System.Windows.Forms.Button();
-            this.cmsSetUp = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmlBusinessInformation = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlCustomer = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlSupplier = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlVAT = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlWareHouse = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlShelf = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsStock = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmlStock = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlExpiredItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlBadStock = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem24 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlStockTransfer = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsSale = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmlSales = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlPOS = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlInvoiceList = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsPurchase = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmlPurchase = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlPurchaseList = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsReturn = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmlSalesReturn = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlPurchaseReturn = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsItem = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmlItemInformation = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem14 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlListOfItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem23 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlImport = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem15 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlBarcode = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsCredit = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmlCreditSale = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem16 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlCreditPurchase = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsEmployee = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmlEmployee = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlAttendance = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem18 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlEmployeeSalary = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsTools = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmlLanguage = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem20 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlResetDB = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsReports = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmlItemReport = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlStockReport = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlSalesReport = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlPurchaseReport = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlReturnReport = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlCreditReport = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlEmployeeReport = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmlExpenseReport = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panelTrading.SuspendLayout();
-            this.cmsSetUp.SuspendLayout();
-            this.cmsStock.SuspendLayout();
-            this.cmsSale.SuspendLayout();
-            this.cmsPurchase.SuspendLayout();
-            this.cmsReturn.SuspendLayout();
-            this.cmsItem.SuspendLayout();
-            this.cmsCredit.SuspendLayout();
-            this.cmsEmployee.SuspendLayout();
-            this.cmsTools.SuspendLayout();
-            this.cmsReports.SuspendLayout();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            panel1 = new System.Windows.Forms.Panel();
+            panel7 = new System.Windows.Forms.Panel();
+            lblClock = new System.Windows.Forms.Label();
+            panel5 = new System.Windows.Forms.Panel();
+            panel6 = new System.Windows.Forms.Panel();
+            lnkChangePassword = new System.Windows.Forms.LinkLabel();
+            linkLogOut = new System.Windows.Forms.LinkLabel();
+            panel4 = new System.Windows.Forms.Panel();
+            Label1 = new System.Windows.Forms.Label();
+            panel2 = new System.Windows.Forms.Panel();
+            panel3 = new System.Windows.Forms.Panel();
+            panelTrading = new System.Windows.Forms.Panel();
+            btnTools = new System.Windows.Forms.Button();
+            btnAdmin = new System.Windows.Forms.Button();
+            btnReport = new System.Windows.Forms.Button();
+            btnExpense = new System.Windows.Forms.Button();
+            btnEmployee = new System.Windows.Forms.Button();
+            btnCredit = new System.Windows.Forms.Button();
+            btnReturn = new System.Windows.Forms.Button();
+            btnPurchase = new System.Windows.Forms.Button();
+            btnSale = new System.Windows.Forms.Button();
+            btnStock = new System.Windows.Forms.Button();
+            btnItem = new System.Windows.Forms.Button();
+            btnSetUp = new System.Windows.Forms.Button();
+            cmsSetUp = new System.Windows.Forms.ContextMenuStrip(components);
+            tsmlBusinessInformation = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlCustomer = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlSupplier = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlVAT = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlWareHouse = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlShelf = new System.Windows.Forms.ToolStripMenuItem();
+            cmsStock = new System.Windows.Forms.ContextMenuStrip(components);
+            tsmlStock = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlExpiredItem = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem8 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlBadStock = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem24 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlStockTransfer = new System.Windows.Forms.ToolStripMenuItem();
+            cmsSale = new System.Windows.Forms.ContextMenuStrip(components);
+            tsmlSales = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem9 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlPOS = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem10 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlInvoiceList = new System.Windows.Forms.ToolStripMenuItem();
+            cmsPurchase = new System.Windows.Forms.ContextMenuStrip(components);
+            tsmlPurchase = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem11 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlPurchaseList = new System.Windows.Forms.ToolStripMenuItem();
+            cmsReturn = new System.Windows.Forms.ContextMenuStrip(components);
+            tsmlSalesReturn = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem12 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlPurchaseReturn = new System.Windows.Forms.ToolStripMenuItem();
+            cmsItem = new System.Windows.Forms.ContextMenuStrip(components);
+            tsmlItemInformation = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem14 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlListOfItem = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem23 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlImport = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem15 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlBarcode = new System.Windows.Forms.ToolStripMenuItem();
+            cmsCredit = new System.Windows.Forms.ContextMenuStrip(components);
+            tsmlCreditSale = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem16 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlCreditPurchase = new System.Windows.Forms.ToolStripMenuItem();
+            cmsEmployee = new System.Windows.Forms.ContextMenuStrip(components);
+            tsmlEmployee = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem17 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlAttendance = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem18 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlEmployeeSalary = new System.Windows.Forms.ToolStripMenuItem();
+            cmsTools = new System.Windows.Forms.ContextMenuStrip(components);
+            tsmlLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem20 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlResetDB = new System.Windows.Forms.ToolStripMenuItem();
+            cmsReports = new System.Windows.Forms.ContextMenuStrip(components);
+            tsmlItemReport = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlStockReport = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlSalesReport = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlPurchaseReport = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlReturnReport = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlCreditReport = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlEmployeeReport = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem7 = new System.Windows.Forms.ToolStripSeparator();
+            tsmlExpenseReport = new System.Windows.Forms.ToolStripMenuItem();
+            panel1.SuspendLayout();
+            panel7.SuspendLayout();
+            panel5.SuspendLayout();
+            panel6.SuspendLayout();
+            panel4.SuspendLayout();
+            panel3.SuspendLayout();
+            panelTrading.SuspendLayout();
+            cmsSetUp.SuspendLayout();
+            cmsStock.SuspendLayout();
+            cmsSale.SuspendLayout();
+            cmsPurchase.SuspendLayout();
+            cmsReturn.SuspendLayout();
+            cmsItem.SuspendLayout();
+            cmsCredit.SuspendLayout();
+            cmsEmployee.SuspendLayout();
+            cmsTools.SuspendLayout();
+            cmsReports.SuspendLayout();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.panel7);
-            this.panel1.Controls.Add(this.panel5);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1212, 74);
-            this.panel1.TabIndex = 2;
+            panel1.BackColor = System.Drawing.Color.Black;
+            panel1.Controls.Add(panel7);
+            panel1.Controls.Add(panel5);
+            panel1.Controls.Add(panel4);
+            panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            panel1.Location = new System.Drawing.Point(0, 0);
+            panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            panel1.Name = "panel1";
+            panel1.Size = new System.Drawing.Size(1616, 114);
+            panel1.TabIndex = 2;
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.lblClock);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel7.Location = new System.Drawing.Point(1003, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(209, 57);
-            this.panel7.TabIndex = 11;
+            panel7.Controls.Add(lblClock);
+            panel7.Dock = System.Windows.Forms.DockStyle.Right;
+            panel7.Location = new System.Drawing.Point(1337, 0);
+            panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            panel7.Name = "panel7";
+            panel7.Size = new System.Drawing.Size(279, 88);
+            panel7.TabIndex = 11;
             // 
             // lblClock
             // 
-            this.lblClock.AutoSize = true;
-            this.lblClock.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lblClock.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblClock.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblClock.Location = new System.Drawing.Point(93, 0);
-            this.lblClock.Name = "lblClock";
-            this.lblClock.Size = new System.Drawing.Size(116, 50);
-            this.lblClock.TabIndex = 11;
-            this.lblClock.Text = "00:00";
+            lblClock.AutoSize = true;
+            lblClock.Dock = System.Windows.Forms.DockStyle.Right;
+            lblClock.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            lblClock.ForeColor = System.Drawing.Color.DodgerBlue;
+            lblClock.Location = new System.Drawing.Point(131, 0);
+            lblClock.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lblClock.Name = "lblClock";
+            lblClock.Size = new System.Drawing.Size(148, 62);
+            lblClock.TabIndex = 11;
+            lblClock.Text = "00:00";
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.Black;
-            this.panel5.Controls.Add(this.panel6);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(332, 57);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(880, 17);
-            this.panel5.TabIndex = 5;
+            panel5.BackColor = System.Drawing.Color.Black;
+            panel5.Controls.Add(panel6);
+            panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            panel5.Location = new System.Drawing.Point(443, 88);
+            panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            panel5.Name = "panel5";
+            panel5.Size = new System.Drawing.Size(1173, 26);
+            panel5.TabIndex = 5;
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.Black;
-            this.panel6.Controls.Add(this.lnkChangePassword);
-            this.panel6.Controls.Add(this.linkLogOut);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel6.Location = new System.Drawing.Point(268, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(612, 17);
-            this.panel6.TabIndex = 6;
+            panel6.BackColor = System.Drawing.Color.Black;
+            panel6.Controls.Add(lnkChangePassword);
+            panel6.Controls.Add(linkLogOut);
+            panel6.Dock = System.Windows.Forms.DockStyle.Right;
+            panel6.Location = new System.Drawing.Point(357, 0);
+            panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            panel6.Name = "panel6";
+            panel6.Size = new System.Drawing.Size(816, 26);
+            panel6.TabIndex = 6;
             // 
             // lnkChangePassword
             // 
-            this.lnkChangePassword.AutoSize = true;
-            this.lnkChangePassword.Dock = System.Windows.Forms.DockStyle.Right;
-            this.lnkChangePassword.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkChangePassword.Location = new System.Drawing.Point(429, 0);
-            this.lnkChangePassword.Name = "lnkChangePassword";
-            this.lnkChangePassword.Size = new System.Drawing.Size(124, 15);
-            this.lnkChangePassword.TabIndex = 7;
-            this.lnkChangePassword.TabStop = true;
-            this.lnkChangePassword.Text = "CHANGE PASSWORD";
-            this.lnkChangePassword.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkChangePassword_LinkClicked);
+            lnkChangePassword.AutoSize = true;
+            lnkChangePassword.Dock = System.Windows.Forms.DockStyle.Right;
+            lnkChangePassword.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            lnkChangePassword.Location = new System.Drawing.Point(585, 0);
+            lnkChangePassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lnkChangePassword.Name = "lnkChangePassword";
+            lnkChangePassword.Size = new System.Drawing.Size(157, 20);
+            lnkChangePassword.TabIndex = 7;
+            lnkChangePassword.TabStop = true;
+            lnkChangePassword.Text = "CHANGE PASSWORD";
+            lnkChangePassword.LinkClicked += lnkChangePassword_LinkClicked;
             // 
             // linkLogOut
             // 
-            this.linkLogOut.AutoSize = true;
-            this.linkLogOut.BackColor = System.Drawing.Color.Black;
-            this.linkLogOut.Dock = System.Windows.Forms.DockStyle.Right;
-            this.linkLogOut.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLogOut.Location = new System.Drawing.Point(553, 0);
-            this.linkLogOut.Name = "linkLogOut";
-            this.linkLogOut.Size = new System.Drawing.Size(59, 15);
-            this.linkLogOut.TabIndex = 8;
-            this.linkLogOut.TabStop = true;
-            this.linkLogOut.Text = "LOG OUT";
-            this.linkLogOut.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLogOut_LinkClicked);
+            linkLogOut.AutoSize = true;
+            linkLogOut.BackColor = System.Drawing.Color.Black;
+            linkLogOut.Dock = System.Windows.Forms.DockStyle.Right;
+            linkLogOut.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            linkLogOut.Location = new System.Drawing.Point(742, 0);
+            linkLogOut.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            linkLogOut.Name = "linkLogOut";
+            linkLogOut.Size = new System.Drawing.Size(74, 20);
+            linkLogOut.TabIndex = 8;
+            linkLogOut.TabStop = true;
+            linkLogOut.Text = "LOG OUT";
+            linkLogOut.LinkClicked += linkLogOut_LinkClicked;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Black;
-            this.panel4.Controls.Add(this.Label1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(332, 74);
-            this.panel4.TabIndex = 0;
+            panel4.BackColor = System.Drawing.Color.Black;
+            panel4.Controls.Add(Label1);
+            panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            panel4.Location = new System.Drawing.Point(0, 0);
+            panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            panel4.Name = "panel4";
+            panel4.Size = new System.Drawing.Size(443, 114);
+            panel4.TabIndex = 0;
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.BackColor = System.Drawing.Color.Black;
-            this.Label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(0, 0);
-            this.Label1.Name = "Label1";
-            this.Label1.Padding = new System.Windows.Forms.Padding(13);
-            this.Label1.Size = new System.Drawing.Size(159, 71);
-            this.Label1.TabIndex = 1;
-            this.Label1.Text = "Express";
+            Label1.AutoSize = true;
+            Label1.BackColor = System.Drawing.Color.Black;
+            Label1.Dock = System.Windows.Forms.DockStyle.Left;
+            Label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            Label1.ForeColor = System.Drawing.Color.White;
+            Label1.Location = new System.Drawing.Point(0, 0);
+            Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            Label1.Name = "Label1";
+            Label1.Padding = new System.Windows.Forms.Padding(17, 20, 17, 20);
+            Label1.Size = new System.Drawing.Size(199, 94);
+            Label1.TabIndex = 1;
+            Label1.Text = "Express";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 423);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1212, 44);
-            this.panel2.TabIndex = 2;
+            panel2.BackColor = System.Drawing.Color.Black;
+            panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            panel2.Location = new System.Drawing.Point(0, 650);
+            panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            panel2.Name = "panel2";
+            panel2.Size = new System.Drawing.Size(1616, 68);
+            panel2.TabIndex = 2;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Black;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.panelTrading);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 74);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1212, 65);
-            this.panel3.TabIndex = 3;
+            panel3.BackColor = System.Drawing.Color.Black;
+            panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            panel3.Controls.Add(panelTrading);
+            panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            panel3.Location = new System.Drawing.Point(0, 114);
+            panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            panel3.Name = "panel3";
+            panel3.Size = new System.Drawing.Size(1616, 99);
+            panel3.TabIndex = 3;
             // 
             // panelTrading
             // 
-            this.panelTrading.BackColor = System.Drawing.Color.Black;
-            this.panelTrading.Controls.Add(this.btnTools);
-            this.panelTrading.Controls.Add(this.btnAdmin);
-            this.panelTrading.Controls.Add(this.btnReport);
-            this.panelTrading.Controls.Add(this.btnExpense);
-            this.panelTrading.Controls.Add(this.btnEmployee);
-            this.panelTrading.Controls.Add(this.btnCredit);
-            this.panelTrading.Controls.Add(this.btnReturn);
-            this.panelTrading.Controls.Add(this.btnPurchase);
-            this.panelTrading.Controls.Add(this.btnSale);
-            this.panelTrading.Controls.Add(this.btnStock);
-            this.panelTrading.Controls.Add(this.btnItem);
-            this.panelTrading.Controls.Add(this.btnSetUp);
-            this.panelTrading.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelTrading.Location = new System.Drawing.Point(0, 0);
-            this.panelTrading.Name = "panelTrading";
-            this.panelTrading.Size = new System.Drawing.Size(1090, 63);
-            this.panelTrading.TabIndex = 6;
+            panelTrading.BackColor = System.Drawing.Color.Black;
+            panelTrading.Controls.Add(btnTools);
+            panelTrading.Controls.Add(btnAdmin);
+            panelTrading.Controls.Add(btnReport);
+            panelTrading.Controls.Add(btnExpense);
+            panelTrading.Controls.Add(btnEmployee);
+            panelTrading.Controls.Add(btnCredit);
+            panelTrading.Controls.Add(btnReturn);
+            panelTrading.Controls.Add(btnPurchase);
+            panelTrading.Controls.Add(btnSale);
+            panelTrading.Controls.Add(btnStock);
+            panelTrading.Controls.Add(btnItem);
+            panelTrading.Controls.Add(btnSetUp);
+            panelTrading.Dock = System.Windows.Forms.DockStyle.Left;
+            panelTrading.Location = new System.Drawing.Point(0, 0);
+            panelTrading.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            panelTrading.Name = "panelTrading";
+            panelTrading.Size = new System.Drawing.Size(1453, 97);
+            panelTrading.TabIndex = 6;
             // 
             // btnTools
             // 
-            this.btnTools.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnTools.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnTools.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnTools.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTools.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTools.ForeColor = System.Drawing.Color.White;
-            this.btnTools.Image = global::Express.Properties.Resources.Tools_1;
-            this.btnTools.Location = new System.Drawing.Point(891, 0);
-            this.btnTools.Name = "btnTools";
-            this.btnTools.Size = new System.Drawing.Size(81, 63);
-            this.btnTools.TabIndex = 14;
-            this.btnTools.Text = "TOOLS";
-            this.btnTools.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnTools.UseVisualStyleBackColor = false;
-            this.btnTools.Click += new System.EventHandler(this.btnTools_Click);
+            btnTools.BackColor = System.Drawing.Color.DodgerBlue;
+            btnTools.Dock = System.Windows.Forms.DockStyle.Left;
+            btnTools.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnTools.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnTools.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnTools.ForeColor = System.Drawing.Color.White;
+            btnTools.Image = Properties.Resources.Tools_1;
+            btnTools.Location = new System.Drawing.Point(1188, 0);
+            btnTools.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnTools.Name = "btnTools";
+            btnTools.Size = new System.Drawing.Size(108, 97);
+            btnTools.TabIndex = 14;
+            btnTools.Text = "TOOLS";
+            btnTools.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnTools.UseVisualStyleBackColor = false;
+            btnTools.Click += btnTools_Click;
             // 
             // btnAdmin
             // 
-            this.btnAdmin.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnAdmin.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnAdmin.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdmin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdmin.ForeColor = System.Drawing.Color.White;
-            this.btnAdmin.Image = global::Express.Properties.Resources.U1;
-            this.btnAdmin.Location = new System.Drawing.Point(810, 0);
-            this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(81, 63);
-            this.btnAdmin.TabIndex = 13;
-            this.btnAdmin.Text = "ADMIN";
-            this.btnAdmin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnAdmin.UseVisualStyleBackColor = false;
-            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
+            btnAdmin.BackColor = System.Drawing.Color.DodgerBlue;
+            btnAdmin.Dock = System.Windows.Forms.DockStyle.Left;
+            btnAdmin.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnAdmin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnAdmin.ForeColor = System.Drawing.Color.White;
+            btnAdmin.Image = Properties.Resources.U1;
+            btnAdmin.Location = new System.Drawing.Point(1080, 0);
+            btnAdmin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnAdmin.Name = "btnAdmin";
+            btnAdmin.Size = new System.Drawing.Size(108, 97);
+            btnAdmin.TabIndex = 13;
+            btnAdmin.Text = "ADMIN";
+            btnAdmin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnAdmin.UseVisualStyleBackColor = false;
+            btnAdmin.Click += btnAdmin_Click;
             // 
             // btnReport
             // 
-            this.btnReport.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnReport.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnReport.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReport.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReport.ForeColor = System.Drawing.Color.White;
-            this.btnReport.Image = global::Express.Properties.Resources.Incidente;
-            this.btnReport.Location = new System.Drawing.Point(729, 0);
-            this.btnReport.Name = "btnReport";
-            this.btnReport.Size = new System.Drawing.Size(81, 63);
-            this.btnReport.TabIndex = 12;
-            this.btnReport.Text = "REPORT";
-            this.btnReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnReport.UseVisualStyleBackColor = false;
-            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
+            btnReport.BackColor = System.Drawing.Color.DodgerBlue;
+            btnReport.Dock = System.Windows.Forms.DockStyle.Left;
+            btnReport.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnReport.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnReport.ForeColor = System.Drawing.Color.White;
+            btnReport.Image = Properties.Resources.Incidente;
+            btnReport.Location = new System.Drawing.Point(972, 0);
+            btnReport.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnReport.Name = "btnReport";
+            btnReport.Size = new System.Drawing.Size(108, 97);
+            btnReport.TabIndex = 12;
+            btnReport.Text = "REPORT";
+            btnReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnReport.UseVisualStyleBackColor = false;
+            btnReport.Click += btnReport_Click;
             // 
             // btnExpense
             // 
-            this.btnExpense.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnExpense.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnExpense.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnExpense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExpense.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExpense.ForeColor = System.Drawing.Color.White;
-            this.btnExpense.Image = global::Express.Properties.Resources.E16;
-            this.btnExpense.Location = new System.Drawing.Point(648, 0);
-            this.btnExpense.Name = "btnExpense";
-            this.btnExpense.Size = new System.Drawing.Size(81, 63);
-            this.btnExpense.TabIndex = 11;
-            this.btnExpense.Text = "EXPENSE";
-            this.btnExpense.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnExpense.UseVisualStyleBackColor = false;
-            this.btnExpense.Click += new System.EventHandler(this.btnDoctor_Click);
+            btnExpense.BackColor = System.Drawing.Color.DodgerBlue;
+            btnExpense.Dock = System.Windows.Forms.DockStyle.Left;
+            btnExpense.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnExpense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnExpense.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnExpense.ForeColor = System.Drawing.Color.White;
+            btnExpense.Image = Properties.Resources.E16;
+            btnExpense.Location = new System.Drawing.Point(864, 0);
+            btnExpense.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnExpense.Name = "btnExpense";
+            btnExpense.Size = new System.Drawing.Size(108, 97);
+            btnExpense.TabIndex = 11;
+            btnExpense.Text = "EXPENSE";
+            btnExpense.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnExpense.UseVisualStyleBackColor = false;
+            btnExpense.Click += btnDoctor_Click;
             // 
             // btnEmployee
             // 
-            this.btnEmployee.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnEmployee.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnEmployee.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmployee.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmployee.ForeColor = System.Drawing.Color.White;
-            this.btnEmployee.Image = global::Express.Properties.Resources.Empleado;
-            this.btnEmployee.Location = new System.Drawing.Point(567, 0);
-            this.btnEmployee.Name = "btnEmployee";
-            this.btnEmployee.Size = new System.Drawing.Size(81, 63);
-            this.btnEmployee.TabIndex = 10;
-            this.btnEmployee.Text = "EMPLOYEE";
-            this.btnEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnEmployee.UseVisualStyleBackColor = false;
-            this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
+            btnEmployee.BackColor = System.Drawing.Color.DodgerBlue;
+            btnEmployee.Dock = System.Windows.Forms.DockStyle.Left;
+            btnEmployee.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnEmployee.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnEmployee.ForeColor = System.Drawing.Color.White;
+            btnEmployee.Image = Properties.Resources.Empleado;
+            btnEmployee.Location = new System.Drawing.Point(756, 0);
+            btnEmployee.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnEmployee.Name = "btnEmployee";
+            btnEmployee.Size = new System.Drawing.Size(108, 97);
+            btnEmployee.TabIndex = 10;
+            btnEmployee.Text = "EMPLOYEE";
+            btnEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnEmployee.UseVisualStyleBackColor = false;
+            btnEmployee.Click += btnEmployee_Click;
             // 
             // btnCredit
             // 
-            this.btnCredit.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnCredit.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnCredit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnCredit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCredit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCredit.ForeColor = System.Drawing.Color.White;
-            this.btnCredit.Image = global::Express.Properties.Resources.T3;
-            this.btnCredit.Location = new System.Drawing.Point(486, 0);
-            this.btnCredit.Name = "btnCredit";
-            this.btnCredit.Size = new System.Drawing.Size(81, 63);
-            this.btnCredit.TabIndex = 9;
-            this.btnCredit.Text = "CREDIT";
-            this.btnCredit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnCredit.UseVisualStyleBackColor = false;
-            this.btnCredit.Click += new System.EventHandler(this.btnCredit_Click);
+            btnCredit.BackColor = System.Drawing.Color.DodgerBlue;
+            btnCredit.Dock = System.Windows.Forms.DockStyle.Left;
+            btnCredit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnCredit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnCredit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnCredit.ForeColor = System.Drawing.Color.White;
+            btnCredit.Image = Properties.Resources.T3;
+            btnCredit.Location = new System.Drawing.Point(648, 0);
+            btnCredit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnCredit.Name = "btnCredit";
+            btnCredit.Size = new System.Drawing.Size(108, 97);
+            btnCredit.TabIndex = 9;
+            btnCredit.Text = "CREDIT";
+            btnCredit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnCredit.UseVisualStyleBackColor = false;
+            btnCredit.Click += btnCredit_Click;
             // 
             // btnReturn
             // 
-            this.btnReturn.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnReturn.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnReturn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReturn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReturn.ForeColor = System.Drawing.Color.White;
-            this.btnReturn.Image = global::Express.Properties.Resources.E08;
-            this.btnReturn.Location = new System.Drawing.Point(405, 0);
-            this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(81, 63);
-            this.btnReturn.TabIndex = 8;
-            this.btnReturn.Text = "RETURN";
-            this.btnReturn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnReturn.UseVisualStyleBackColor = false;
-            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            btnReturn.BackColor = System.Drawing.Color.DodgerBlue;
+            btnReturn.Dock = System.Windows.Forms.DockStyle.Left;
+            btnReturn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnReturn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnReturn.ForeColor = System.Drawing.Color.White;
+            btnReturn.Image = Properties.Resources.E08;
+            btnReturn.Location = new System.Drawing.Point(540, 0);
+            btnReturn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnReturn.Name = "btnReturn";
+            btnReturn.Size = new System.Drawing.Size(108, 97);
+            btnReturn.TabIndex = 8;
+            btnReturn.Text = "RETURN";
+            btnReturn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnReturn.UseVisualStyleBackColor = false;
+            btnReturn.Click += btnReturn_Click;
             // 
             // btnPurchase
             // 
-            this.btnPurchase.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnPurchase.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnPurchase.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPurchase.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPurchase.ForeColor = System.Drawing.Color.White;
-            this.btnPurchase.Image = global::Express.Properties.Resources.Compra2;
-            this.btnPurchase.Location = new System.Drawing.Point(324, 0);
-            this.btnPurchase.Name = "btnPurchase";
-            this.btnPurchase.Size = new System.Drawing.Size(81, 63);
-            this.btnPurchase.TabIndex = 7;
-            this.btnPurchase.Text = "PURCHASE";
-            this.btnPurchase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnPurchase.UseVisualStyleBackColor = false;
-            this.btnPurchase.Click += new System.EventHandler(this.btnPurchase_Click);
+            btnPurchase.BackColor = System.Drawing.Color.DodgerBlue;
+            btnPurchase.Dock = System.Windows.Forms.DockStyle.Left;
+            btnPurchase.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnPurchase.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnPurchase.ForeColor = System.Drawing.Color.White;
+            btnPurchase.Image = Properties.Resources.Compra2;
+            btnPurchase.Location = new System.Drawing.Point(432, 0);
+            btnPurchase.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnPurchase.Name = "btnPurchase";
+            btnPurchase.Size = new System.Drawing.Size(108, 97);
+            btnPurchase.TabIndex = 7;
+            btnPurchase.Text = "PURCHASE";
+            btnPurchase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnPurchase.UseVisualStyleBackColor = false;
+            btnPurchase.Click += btnPurchase_Click;
             // 
             // btnSale
             // 
-            this.btnSale.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnSale.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnSale.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnSale.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSale.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSale.ForeColor = System.Drawing.Color.White;
-            this.btnSale.Image = global::Express.Properties.Resources.E01;
-            this.btnSale.Location = new System.Drawing.Point(243, 0);
-            this.btnSale.Name = "btnSale";
-            this.btnSale.Size = new System.Drawing.Size(81, 63);
-            this.btnSale.TabIndex = 6;
-            this.btnSale.Text = "SALE";
-            this.btnSale.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnSale.UseVisualStyleBackColor = false;
-            this.btnSale.Click += new System.EventHandler(this.btnSale_Click);
+            btnSale.BackColor = System.Drawing.Color.DodgerBlue;
+            btnSale.Dock = System.Windows.Forms.DockStyle.Left;
+            btnSale.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnSale.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnSale.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnSale.ForeColor = System.Drawing.Color.White;
+            btnSale.Image = Properties.Resources.E01;
+            btnSale.Location = new System.Drawing.Point(324, 0);
+            btnSale.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnSale.Name = "btnSale";
+            btnSale.Size = new System.Drawing.Size(108, 97);
+            btnSale.TabIndex = 6;
+            btnSale.Text = "SALE";
+            btnSale.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnSale.UseVisualStyleBackColor = false;
+            btnSale.Click += btnSale_Click;
             // 
             // btnStock
             // 
-            this.btnStock.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnStock.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnStock.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStock.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStock.ForeColor = System.Drawing.Color.White;
-            this.btnStock.Image = global::Express.Properties.Resources.Producto2;
-            this.btnStock.Location = new System.Drawing.Point(162, 0);
-            this.btnStock.Name = "btnStock";
-            this.btnStock.Size = new System.Drawing.Size(81, 63);
-            this.btnStock.TabIndex = 5;
-            this.btnStock.Text = "STOCK";
-            this.btnStock.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnStock.UseVisualStyleBackColor = false;
-            this.btnStock.Click += new System.EventHandler(this.btnStock_Click);
+            btnStock.BackColor = System.Drawing.Color.DodgerBlue;
+            btnStock.Dock = System.Windows.Forms.DockStyle.Left;
+            btnStock.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnStock.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnStock.ForeColor = System.Drawing.Color.White;
+            btnStock.Image = Properties.Resources.Producto2;
+            btnStock.Location = new System.Drawing.Point(216, 0);
+            btnStock.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnStock.Name = "btnStock";
+            btnStock.Size = new System.Drawing.Size(108, 97);
+            btnStock.TabIndex = 5;
+            btnStock.Text = "STOCK";
+            btnStock.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnStock.UseVisualStyleBackColor = false;
+            btnStock.Click += btnStock_Click;
             // 
             // btnItem
             // 
-            this.btnItem.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnItem.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnItem.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnItem.ForeColor = System.Drawing.Color.White;
-            this.btnItem.Image = global::Express.Properties.Resources.Item;
-            this.btnItem.Location = new System.Drawing.Point(81, 0);
-            this.btnItem.Name = "btnItem";
-            this.btnItem.Size = new System.Drawing.Size(81, 63);
-            this.btnItem.TabIndex = 4;
-            this.btnItem.Text = "ITEM";
-            this.btnItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnItem.UseVisualStyleBackColor = false;
-            this.btnItem.Click += new System.EventHandler(this.btnItem_Click);
+            btnItem.BackColor = System.Drawing.Color.DodgerBlue;
+            btnItem.Dock = System.Windows.Forms.DockStyle.Left;
+            btnItem.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnItem.ForeColor = System.Drawing.Color.White;
+            btnItem.Image = Properties.Resources.Item;
+            btnItem.Location = new System.Drawing.Point(108, 0);
+            btnItem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnItem.Name = "btnItem";
+            btnItem.Size = new System.Drawing.Size(108, 97);
+            btnItem.TabIndex = 4;
+            btnItem.Text = "ITEM";
+            btnItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnItem.UseVisualStyleBackColor = false;
+            btnItem.Click += btnItem_Click;
             // 
             // btnSetUp
             // 
-            this.btnSetUp.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnSetUp.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnSetUp.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnSetUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSetUp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSetUp.ForeColor = System.Drawing.Color.White;
-            this.btnSetUp.Image = global::Express.Properties.Resources.Configuracion;
-            this.btnSetUp.Location = new System.Drawing.Point(0, 0);
-            this.btnSetUp.Name = "btnSetUp";
-            this.btnSetUp.Size = new System.Drawing.Size(81, 63);
-            this.btnSetUp.TabIndex = 3;
-            this.btnSetUp.Text = "SETUP";
-            this.btnSetUp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnSetUp.UseVisualStyleBackColor = false;
-            this.btnSetUp.Click += new System.EventHandler(this.btnSetUp_Click);
+            btnSetUp.BackColor = System.Drawing.Color.DodgerBlue;
+            btnSetUp.Dock = System.Windows.Forms.DockStyle.Left;
+            btnSetUp.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            btnSetUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnSetUp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            btnSetUp.ForeColor = System.Drawing.Color.White;
+            btnSetUp.Image = Properties.Resources.Configuracion;
+            btnSetUp.Location = new System.Drawing.Point(0, 0);
+            btnSetUp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            btnSetUp.Name = "btnSetUp";
+            btnSetUp.Size = new System.Drawing.Size(108, 97);
+            btnSetUp.TabIndex = 3;
+            btnSetUp.Text = "SETUP";
+            btnSetUp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            btnSetUp.UseVisualStyleBackColor = false;
+            btnSetUp.Click += btnSetUp_Click;
             // 
             // cmsSetUp
             // 
-            this.cmsSetUp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.cmsSetUp.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmlBusinessInformation,
-            this.toolStripMenuItem1,
-            this.tsmlCustomer,
-            this.toolStripMenuItem2,
-            this.tsmlSupplier,
-            this.toolStripMenuItem3,
-            this.tsmlVAT,
-            this.toolStripMenuItem4,
-            this.tsmlWareHouse,
-            this.toolStripMenuItem5,
-            this.tsmlShelf});
-            this.cmsSetUp.Name = "cmsSetUp";
-            this.cmsSetUp.Size = new System.Drawing.Size(219, 178);
+            cmsSetUp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            cmsSetUp.ImageScalingSize = new System.Drawing.Size(20, 20);
+            cmsSetUp.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmlBusinessInformation, toolStripMenuItem1, tsmlCustomer, toolStripMenuItem2, tsmlSupplier, toolStripMenuItem3, tsmlVAT, toolStripMenuItem4, tsmlWareHouse, toolStripMenuItem5, tsmlShelf });
+            cmsSetUp.Name = "cmsSetUp";
+            cmsSetUp.Size = new System.Drawing.Size(262, 214);
             // 
             // tsmlBusinessInformation
             // 
-            this.tsmlBusinessInformation.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsmlBusinessInformation.Name = "tsmlBusinessInformation";
-            this.tsmlBusinessInformation.Size = new System.Drawing.Size(218, 24);
-            this.tsmlBusinessInformation.Text = "Business Information";
-            this.tsmlBusinessInformation.Click += new System.EventHandler(this.tsmlBusinessInformation_Click);
+            tsmlBusinessInformation.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlBusinessInformation.Name = "tsmlBusinessInformation";
+            tsmlBusinessInformation.Size = new System.Drawing.Size(261, 30);
+            tsmlBusinessInformation.Text = "Business Information";
+            tsmlBusinessInformation.Click += tsmlBusinessInformation_Click;
             // 
             // toolStripMenuItem1
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(215, 6);
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new System.Drawing.Size(258, 6);
             // 
             // tsmlCustomer
             // 
-            this.tsmlCustomer.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlCustomer.Name = "tsmlCustomer";
-            this.tsmlCustomer.Size = new System.Drawing.Size(218, 24);
-            this.tsmlCustomer.Text = "Customer";
-            this.tsmlCustomer.Click += new System.EventHandler(this.customerToolStripMenuItem_Click);
+            tsmlCustomer.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlCustomer.Name = "tsmlCustomer";
+            tsmlCustomer.Size = new System.Drawing.Size(261, 30);
+            tsmlCustomer.Text = "Customer";
+            tsmlCustomer.Click += customerToolStripMenuItem_Click;
             // 
             // toolStripMenuItem2
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(215, 6);
+            toolStripMenuItem2.Name = "toolStripMenuItem2";
+            toolStripMenuItem2.Size = new System.Drawing.Size(258, 6);
             // 
             // tsmlSupplier
             // 
-            this.tsmlSupplier.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlSupplier.Name = "tsmlSupplier";
-            this.tsmlSupplier.Size = new System.Drawing.Size(218, 24);
-            this.tsmlSupplier.Text = "Supplier";
-            this.tsmlSupplier.Click += new System.EventHandler(this.supplierToolStripMenuItem_Click);
+            tsmlSupplier.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlSupplier.Name = "tsmlSupplier";
+            tsmlSupplier.Size = new System.Drawing.Size(261, 30);
+            tsmlSupplier.Text = "Supplier";
+            tsmlSupplier.Click += supplierToolStripMenuItem_Click;
             // 
             // toolStripMenuItem3
             // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(215, 6);
+            toolStripMenuItem3.Name = "toolStripMenuItem3";
+            toolStripMenuItem3.Size = new System.Drawing.Size(258, 6);
             // 
             // tsmlVAT
             // 
-            this.tsmlVAT.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlVAT.Name = "tsmlVAT";
-            this.tsmlVAT.Size = new System.Drawing.Size(218, 24);
-            this.tsmlVAT.Text = "VAT";
-            this.tsmlVAT.Click += new System.EventHandler(this.vATSetupToolStripMenuItem_Click);
+            tsmlVAT.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlVAT.Name = "tsmlVAT";
+            tsmlVAT.Size = new System.Drawing.Size(261, 30);
+            tsmlVAT.Text = "VAT";
+            tsmlVAT.Click += vATSetupToolStripMenuItem_Click;
             // 
             // toolStripMenuItem4
             // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(215, 6);
+            toolStripMenuItem4.Name = "toolStripMenuItem4";
+            toolStripMenuItem4.Size = new System.Drawing.Size(258, 6);
             // 
             // tsmlWareHouse
             // 
-            this.tsmlWareHouse.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlWareHouse.Name = "tsmlWareHouse";
-            this.tsmlWareHouse.Size = new System.Drawing.Size(218, 24);
-            this.tsmlWareHouse.Text = "Warehouse";
-            this.tsmlWareHouse.Click += new System.EventHandler(this.stockSetupToolStripMenuItem_Click);
+            tsmlWareHouse.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlWareHouse.Name = "tsmlWareHouse";
+            tsmlWareHouse.Size = new System.Drawing.Size(261, 30);
+            tsmlWareHouse.Text = "Warehouse";
+            tsmlWareHouse.Click += stockSetupToolStripMenuItem_Click;
             // 
             // toolStripMenuItem5
             // 
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(215, 6);
+            toolStripMenuItem5.Name = "toolStripMenuItem5";
+            toolStripMenuItem5.Size = new System.Drawing.Size(258, 6);
             // 
             // tsmlShelf
             // 
-            this.tsmlShelf.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlShelf.Name = "tsmlShelf";
-            this.tsmlShelf.Size = new System.Drawing.Size(218, 24);
-            this.tsmlShelf.Text = "Shelf";
-            this.tsmlShelf.Click += new System.EventHandler(this.rackingToolStripMenuItem_Click);
+            tsmlShelf.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlShelf.Name = "tsmlShelf";
+            tsmlShelf.Size = new System.Drawing.Size(261, 30);
+            tsmlShelf.Text = "Shelf";
+            tsmlShelf.Click += rackingToolStripMenuItem_Click;
             // 
             // cmsStock
             // 
-            this.cmsStock.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmlStock,
-            this.toolStripMenuItem6,
-            this.tsmlExpiredItem,
-            this.toolStripMenuItem8,
-            this.tsmlBadStock,
-            this.toolStripMenuItem24,
-            this.tsmlStockTransfer});
-            this.cmsStock.Name = "cmsStock";
-            this.cmsStock.Size = new System.Drawing.Size(173, 118);
+            cmsStock.ImageScalingSize = new System.Drawing.Size(20, 20);
+            cmsStock.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmlStock, toolStripMenuItem6, tsmlExpiredItem, toolStripMenuItem8, tsmlBadStock, toolStripMenuItem24, tsmlStockTransfer });
+            cmsStock.Name = "cmsStock";
+            cmsStock.Size = new System.Drawing.Size(201, 142);
             // 
             // tsmlStock
             // 
-            this.tsmlStock.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlStock.Name = "tsmlStock";
-            this.tsmlStock.Size = new System.Drawing.Size(172, 24);
-            this.tsmlStock.Text = "Stock";
-            this.tsmlStock.Click += new System.EventHandler(this.stockToolStripMenuItem_Click);
+            tsmlStock.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlStock.Name = "tsmlStock";
+            tsmlStock.Size = new System.Drawing.Size(200, 30);
+            tsmlStock.Text = "Stock";
+            tsmlStock.Click += stockToolStripMenuItem_Click;
             // 
             // toolStripMenuItem6
             // 
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(169, 6);
+            toolStripMenuItem6.Name = "toolStripMenuItem6";
+            toolStripMenuItem6.Size = new System.Drawing.Size(197, 6);
             // 
             // tsmlExpiredItem
             // 
-            this.tsmlExpiredItem.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlExpiredItem.Name = "tsmlExpiredItem";
-            this.tsmlExpiredItem.Size = new System.Drawing.Size(172, 24);
-            this.tsmlExpiredItem.Text = "Expired Item";
-            this.tsmlExpiredItem.Click += new System.EventHandler(this.expiredItemToolStripMenuItem_Click);
+            tsmlExpiredItem.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlExpiredItem.Name = "tsmlExpiredItem";
+            tsmlExpiredItem.Size = new System.Drawing.Size(200, 30);
+            tsmlExpiredItem.Text = "Expired Item";
+            tsmlExpiredItem.Click += expiredItemToolStripMenuItem_Click;
             // 
             // toolStripMenuItem8
             // 
-            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(169, 6);
+            toolStripMenuItem8.Name = "toolStripMenuItem8";
+            toolStripMenuItem8.Size = new System.Drawing.Size(197, 6);
             // 
             // tsmlBadStock
             // 
-            this.tsmlBadStock.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlBadStock.Name = "tsmlBadStock";
-            this.tsmlBadStock.Size = new System.Drawing.Size(172, 24);
-            this.tsmlBadStock.Text = "Bad Stock";
-            this.tsmlBadStock.Click += new System.EventHandler(this.adjustmentToolStripMenuItem_Click);
+            tsmlBadStock.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlBadStock.Name = "tsmlBadStock";
+            tsmlBadStock.Size = new System.Drawing.Size(200, 30);
+            tsmlBadStock.Text = "Bad Stock";
+            tsmlBadStock.Click += adjustmentToolStripMenuItem_Click;
             // 
             // toolStripMenuItem24
             // 
-            this.toolStripMenuItem24.Name = "toolStripMenuItem24";
-            this.toolStripMenuItem24.Size = new System.Drawing.Size(169, 6);
+            toolStripMenuItem24.Name = "toolStripMenuItem24";
+            toolStripMenuItem24.Size = new System.Drawing.Size(197, 6);
             // 
             // tsmlStockTransfer
             // 
-            this.tsmlStockTransfer.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlStockTransfer.Name = "tsmlStockTransfer";
-            this.tsmlStockTransfer.Size = new System.Drawing.Size(172, 24);
-            this.tsmlStockTransfer.Text = "Stock Transfer";
-            this.tsmlStockTransfer.Click += new System.EventHandler(this.stockTransferToolStripMenuItem_Click);
+            tsmlStockTransfer.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlStockTransfer.Name = "tsmlStockTransfer";
+            tsmlStockTransfer.Size = new System.Drawing.Size(200, 30);
+            tsmlStockTransfer.Text = "Stock Transfer";
+            tsmlStockTransfer.Click += stockTransferToolStripMenuItem_Click;
             // 
             // cmsSale
             // 
-            this.cmsSale.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmlSales,
-            this.toolStripMenuItem9,
-            this.tsmlPOS,
-            this.toolStripMenuItem10,
-            this.tsmlInvoiceList});
-            this.cmsSale.Name = "cmsSale";
-            this.cmsSale.Size = new System.Drawing.Size(160, 88);
+            cmsSale.ImageScalingSize = new System.Drawing.Size(20, 20);
+            cmsSale.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmlSales, toolStripMenuItem9, tsmlPOS, toolStripMenuItem10, tsmlInvoiceList });
+            cmsSale.Name = "cmsSale";
+            cmsSale.Size = new System.Drawing.Size(187, 106);
             // 
             // tsmlSales
             // 
-            this.tsmlSales.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlSales.Name = "tsmlSales";
-            this.tsmlSales.Size = new System.Drawing.Size(159, 24);
-            this.tsmlSales.Text = "Sales";
-            this.tsmlSales.Click += new System.EventHandler(this.salesToolStripMenuItem_Click);
+            tsmlSales.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlSales.Name = "tsmlSales";
+            tsmlSales.Size = new System.Drawing.Size(186, 30);
+            tsmlSales.Text = "Sales";
+            tsmlSales.Click += salesToolStripMenuItem_Click;
             // 
             // toolStripMenuItem9
             // 
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(156, 6);
+            toolStripMenuItem9.Name = "toolStripMenuItem9";
+            toolStripMenuItem9.Size = new System.Drawing.Size(183, 6);
             // 
             // tsmlPOS
             // 
-            this.tsmlPOS.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlPOS.Name = "tsmlPOS";
-            this.tsmlPOS.Size = new System.Drawing.Size(159, 24);
-            this.tsmlPOS.Text = "Point of sale";
-            this.tsmlPOS.Click += new System.EventHandler(this.advancedPOSToolStripMenuItem_Click);
+            tsmlPOS.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlPOS.Name = "tsmlPOS";
+            tsmlPOS.Size = new System.Drawing.Size(186, 30);
+            tsmlPOS.Text = "Point of sale";
+            tsmlPOS.Click += advancedPOSToolStripMenuItem_Click;
             // 
             // toolStripMenuItem10
             // 
-            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(156, 6);
+            toolStripMenuItem10.Name = "toolStripMenuItem10";
+            toolStripMenuItem10.Size = new System.Drawing.Size(183, 6);
             // 
             // tsmlInvoiceList
             // 
-            this.tsmlInvoiceList.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlInvoiceList.Name = "tsmlInvoiceList";
-            this.tsmlInvoiceList.Size = new System.Drawing.Size(159, 24);
-            this.tsmlInvoiceList.Text = "Invoice List";
-            this.tsmlInvoiceList.Click += new System.EventHandler(this.invoiceListToolStripMenuItem_Click);
+            tsmlInvoiceList.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlInvoiceList.Name = "tsmlInvoiceList";
+            tsmlInvoiceList.Size = new System.Drawing.Size(186, 30);
+            tsmlInvoiceList.Text = "Invoice List";
+            tsmlInvoiceList.Click += invoiceListToolStripMenuItem_Click;
             // 
             // cmsPurchase
             // 
-            this.cmsPurchase.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmlPurchase,
-            this.toolStripMenuItem11,
-            this.tsmlPurchaseList});
-            this.cmsPurchase.Name = "cmsPurchase";
-            this.cmsPurchase.Size = new System.Drawing.Size(165, 58);
+            cmsPurchase.ImageScalingSize = new System.Drawing.Size(20, 20);
+            cmsPurchase.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmlPurchase, toolStripMenuItem11, tsmlPurchaseList });
+            cmsPurchase.Name = "cmsPurchase";
+            cmsPurchase.Size = new System.Drawing.Size(193, 70);
             // 
             // tsmlPurchase
             // 
-            this.tsmlPurchase.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlPurchase.Name = "tsmlPurchase";
-            this.tsmlPurchase.Size = new System.Drawing.Size(164, 24);
-            this.tsmlPurchase.Text = "Purchase";
-            this.tsmlPurchase.Click += new System.EventHandler(this.purchaseToolStripMenuItem_Click);
+            tsmlPurchase.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlPurchase.Name = "tsmlPurchase";
+            tsmlPurchase.Size = new System.Drawing.Size(192, 30);
+            tsmlPurchase.Text = "Purchase";
+            tsmlPurchase.Click += purchaseToolStripMenuItem_Click;
             // 
             // toolStripMenuItem11
             // 
-            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(161, 6);
+            toolStripMenuItem11.Name = "toolStripMenuItem11";
+            toolStripMenuItem11.Size = new System.Drawing.Size(189, 6);
             // 
             // tsmlPurchaseList
             // 
-            this.tsmlPurchaseList.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlPurchaseList.Name = "tsmlPurchaseList";
-            this.tsmlPurchaseList.Size = new System.Drawing.Size(164, 24);
-            this.tsmlPurchaseList.Text = "Purchase List";
-            this.tsmlPurchaseList.Click += new System.EventHandler(this.purchaseListToolStripMenuItem_Click);
+            tsmlPurchaseList.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlPurchaseList.Name = "tsmlPurchaseList";
+            tsmlPurchaseList.Size = new System.Drawing.Size(192, 30);
+            tsmlPurchaseList.Text = "Purchase List";
+            tsmlPurchaseList.Click += purchaseListToolStripMenuItem_Click;
             // 
             // cmsReturn
             // 
-            this.cmsReturn.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmlSalesReturn,
-            this.toolStripMenuItem12,
-            this.tsmlPurchaseReturn});
-            this.cmsReturn.Name = "cmsReturn";
-            this.cmsReturn.Size = new System.Drawing.Size(189, 58);
+            cmsReturn.ImageScalingSize = new System.Drawing.Size(20, 20);
+            cmsReturn.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmlSalesReturn, toolStripMenuItem12, tsmlPurchaseReturn });
+            cmsReturn.Name = "cmsReturn";
+            cmsReturn.Size = new System.Drawing.Size(221, 70);
             // 
             // tsmlSalesReturn
             // 
-            this.tsmlSalesReturn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlSalesReturn.Name = "tsmlSalesReturn";
-            this.tsmlSalesReturn.Size = new System.Drawing.Size(188, 24);
-            this.tsmlSalesReturn.Text = "Sales Return";
-            this.tsmlSalesReturn.Click += new System.EventHandler(this.salesReturnToolStripMenuItem_Click);
+            tsmlSalesReturn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlSalesReturn.Name = "tsmlSalesReturn";
+            tsmlSalesReturn.Size = new System.Drawing.Size(220, 30);
+            tsmlSalesReturn.Text = "Sales Return";
+            tsmlSalesReturn.Click += salesReturnToolStripMenuItem_Click;
             // 
             // toolStripMenuItem12
             // 
-            this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(185, 6);
+            toolStripMenuItem12.Name = "toolStripMenuItem12";
+            toolStripMenuItem12.Size = new System.Drawing.Size(217, 6);
             // 
             // tsmlPurchaseReturn
             // 
-            this.tsmlPurchaseReturn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlPurchaseReturn.Name = "tsmlPurchaseReturn";
-            this.tsmlPurchaseReturn.Size = new System.Drawing.Size(188, 24);
-            this.tsmlPurchaseReturn.Text = "Purchase Return";
-            this.tsmlPurchaseReturn.Click += new System.EventHandler(this.purchaseReturnToolStripMenuItem_Click);
+            tsmlPurchaseReturn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlPurchaseReturn.Name = "tsmlPurchaseReturn";
+            tsmlPurchaseReturn.Size = new System.Drawing.Size(220, 30);
+            tsmlPurchaseReturn.Text = "Purchase Return";
+            tsmlPurchaseReturn.Click += purchaseReturnToolStripMenuItem_Click;
             // 
             // cmsItem
             // 
-            this.cmsItem.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmlItemInformation,
-            this.toolStripMenuItem14,
-            this.tsmlListOfItem,
-            this.toolStripMenuItem23,
-            this.tsmlImport,
-            this.toolStripMenuItem15,
-            this.tsmlBarcode});
-            this.cmsItem.Name = "cmsItem";
-            this.cmsItem.Size = new System.Drawing.Size(192, 118);
+            cmsItem.ImageScalingSize = new System.Drawing.Size(20, 20);
+            cmsItem.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmlItemInformation, toolStripMenuItem14, tsmlListOfItem, toolStripMenuItem23, tsmlImport, toolStripMenuItem15, tsmlBarcode });
+            cmsItem.Name = "cmsItem";
+            cmsItem.Size = new System.Drawing.Size(230, 142);
             // 
             // tsmlItemInformation
             // 
-            this.tsmlItemInformation.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlItemInformation.Name = "tsmlItemInformation";
-            this.tsmlItemInformation.Size = new System.Drawing.Size(191, 24);
-            this.tsmlItemInformation.Text = "Item Information";
-            this.tsmlItemInformation.Click += new System.EventHandler(this.itemToolStripMenuItem_Click);
+            tsmlItemInformation.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlItemInformation.Name = "tsmlItemInformation";
+            tsmlItemInformation.Size = new System.Drawing.Size(229, 30);
+            tsmlItemInformation.Text = "Item Information";
+            tsmlItemInformation.Click += itemToolStripMenuItem_Click;
             // 
             // toolStripMenuItem14
             // 
-            this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(188, 6);
+            toolStripMenuItem14.Name = "toolStripMenuItem14";
+            toolStripMenuItem14.Size = new System.Drawing.Size(226, 6);
             // 
             // tsmlListOfItem
             // 
-            this.tsmlListOfItem.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlListOfItem.Name = "tsmlListOfItem";
-            this.tsmlListOfItem.Size = new System.Drawing.Size(191, 24);
-            this.tsmlListOfItem.Text = "List of Item";
-            this.tsmlListOfItem.Click += new System.EventHandler(this.listOfItemToolStripMenuItem_Click);
+            tsmlListOfItem.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlListOfItem.Name = "tsmlListOfItem";
+            tsmlListOfItem.Size = new System.Drawing.Size(229, 30);
+            tsmlListOfItem.Text = "List of Item";
+            tsmlListOfItem.Click += listOfItemToolStripMenuItem_Click;
             // 
             // toolStripMenuItem23
             // 
-            this.toolStripMenuItem23.Name = "toolStripMenuItem23";
-            this.toolStripMenuItem23.Size = new System.Drawing.Size(188, 6);
+            toolStripMenuItem23.Name = "toolStripMenuItem23";
+            toolStripMenuItem23.Size = new System.Drawing.Size(226, 6);
             // 
             // tsmlImport
             // 
-            this.tsmlImport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlImport.Name = "tsmlImport";
-            this.tsmlImport.Size = new System.Drawing.Size(191, 24);
-            this.tsmlImport.Text = "Import";
-            this.tsmlImport.Click += new System.EventHandler(this.barcodeToolStripMenuItem_Click);
+            tsmlImport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlImport.Name = "tsmlImport";
+            tsmlImport.Size = new System.Drawing.Size(229, 30);
+            tsmlImport.Text = "Import";
+            tsmlImport.Click += barcodeToolStripMenuItem_Click;
             // 
             // toolStripMenuItem15
             // 
-            this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(188, 6);
+            toolStripMenuItem15.Name = "toolStripMenuItem15";
+            toolStripMenuItem15.Size = new System.Drawing.Size(226, 6);
             // 
             // tsmlBarcode
             // 
-            this.tsmlBarcode.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlBarcode.Name = "tsmlBarcode";
-            this.tsmlBarcode.Size = new System.Drawing.Size(191, 24);
-            this.tsmlBarcode.Text = "Barcode";
-            this.tsmlBarcode.Click += new System.EventHandler(this.barcodeToolStripMenuItem1_Click);
+            tsmlBarcode.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlBarcode.Name = "tsmlBarcode";
+            tsmlBarcode.Size = new System.Drawing.Size(229, 30);
+            tsmlBarcode.Text = "Barcode";
+            tsmlBarcode.Click += barcodeToolStripMenuItem1_Click;
             // 
             // cmsCredit
             // 
-            this.cmsCredit.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmlCreditSale,
-            this.toolStripMenuItem16,
-            this.tsmlCreditPurchase});
-            this.cmsCredit.Name = "cmsCredit";
-            this.cmsCredit.Size = new System.Drawing.Size(145, 58);
+            cmsCredit.ImageScalingSize = new System.Drawing.Size(20, 20);
+            cmsCredit.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmlCreditSale, toolStripMenuItem16, tsmlCreditPurchase });
+            cmsCredit.Name = "cmsCredit";
+            cmsCredit.Size = new System.Drawing.Size(168, 70);
             // 
             // tsmlCreditSale
             // 
-            this.tsmlCreditSale.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlCreditSale.Name = "tsmlCreditSale";
-            this.tsmlCreditSale.Size = new System.Drawing.Size(144, 24);
-            this.tsmlCreditSale.Text = "Collection";
-            this.tsmlCreditSale.Click += new System.EventHandler(this.creditSaleToolStripMenuItem_Click);
+            tsmlCreditSale.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlCreditSale.Name = "tsmlCreditSale";
+            tsmlCreditSale.Size = new System.Drawing.Size(167, 30);
+            tsmlCreditSale.Text = "Collection";
+            tsmlCreditSale.Click += creditSaleToolStripMenuItem_Click;
             // 
             // toolStripMenuItem16
             // 
-            this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(141, 6);
+            toolStripMenuItem16.Name = "toolStripMenuItem16";
+            toolStripMenuItem16.Size = new System.Drawing.Size(164, 6);
             // 
             // tsmlCreditPurchase
             // 
-            this.tsmlCreditPurchase.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlCreditPurchase.Name = "tsmlCreditPurchase";
-            this.tsmlCreditPurchase.Size = new System.Drawing.Size(144, 24);
-            this.tsmlCreditPurchase.Text = "Payment";
-            this.tsmlCreditPurchase.Click += new System.EventHandler(this.creditPurchaseToolStripMenuItem_Click);
+            tsmlCreditPurchase.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlCreditPurchase.Name = "tsmlCreditPurchase";
+            tsmlCreditPurchase.Size = new System.Drawing.Size(167, 30);
+            tsmlCreditPurchase.Text = "Payment";
+            tsmlCreditPurchase.Click += creditPurchaseToolStripMenuItem_Click;
             // 
             // cmsEmployee
             // 
-            this.cmsEmployee.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmlEmployee,
-            this.toolStripMenuItem17,
-            this.tsmlAttendance,
-            this.toolStripMenuItem18,
-            this.tsmlEmployeeSalary});
-            this.cmsEmployee.Name = "cmsEmployee";
-            this.cmsEmployee.Size = new System.Drawing.Size(155, 88);
+            cmsEmployee.ImageScalingSize = new System.Drawing.Size(20, 20);
+            cmsEmployee.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmlEmployee, toolStripMenuItem17, tsmlAttendance, toolStripMenuItem18, tsmlEmployeeSalary });
+            cmsEmployee.Name = "cmsEmployee";
+            cmsEmployee.Size = new System.Drawing.Size(181, 106);
             // 
             // tsmlEmployee
             // 
-            this.tsmlEmployee.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlEmployee.Name = "tsmlEmployee";
-            this.tsmlEmployee.Size = new System.Drawing.Size(154, 24);
-            this.tsmlEmployee.Text = "Employee";
-            this.tsmlEmployee.Click += new System.EventHandler(this.employeeToolStripMenuItem_Click);
+            tsmlEmployee.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlEmployee.Name = "tsmlEmployee";
+            tsmlEmployee.Size = new System.Drawing.Size(180, 30);
+            tsmlEmployee.Text = "Employee";
+            tsmlEmployee.Click += employeeToolStripMenuItem_Click;
             // 
             // toolStripMenuItem17
             // 
-            this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(151, 6);
+            toolStripMenuItem17.Name = "toolStripMenuItem17";
+            toolStripMenuItem17.Size = new System.Drawing.Size(177, 6);
             // 
             // tsmlAttendance
             // 
-            this.tsmlAttendance.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlAttendance.Name = "tsmlAttendance";
-            this.tsmlAttendance.Size = new System.Drawing.Size(154, 24);
-            this.tsmlAttendance.Text = "Attendance";
-            this.tsmlAttendance.Click += new System.EventHandler(this.attendanceToolStripMenuItem_Click);
+            tsmlAttendance.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlAttendance.Name = "tsmlAttendance";
+            tsmlAttendance.Size = new System.Drawing.Size(180, 30);
+            tsmlAttendance.Text = "Attendance";
+            tsmlAttendance.Click += attendanceToolStripMenuItem_Click;
             // 
             // toolStripMenuItem18
             // 
-            this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(151, 6);
+            toolStripMenuItem18.Name = "toolStripMenuItem18";
+            toolStripMenuItem18.Size = new System.Drawing.Size(177, 6);
             // 
             // tsmlEmployeeSalary
             // 
-            this.tsmlEmployeeSalary.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlEmployeeSalary.Name = "tsmlEmployeeSalary";
-            this.tsmlEmployeeSalary.Size = new System.Drawing.Size(154, 24);
-            this.tsmlEmployeeSalary.Text = "Payment";
-            this.tsmlEmployeeSalary.Click += new System.EventHandler(this.employeeSalaryToolStripMenuItem_Click);
+            tsmlEmployeeSalary.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlEmployeeSalary.Name = "tsmlEmployeeSalary";
+            tsmlEmployeeSalary.Size = new System.Drawing.Size(180, 30);
+            tsmlEmployeeSalary.Text = "Payment";
+            tsmlEmployeeSalary.Click += employeeSalaryToolStripMenuItem_Click;
             // 
             // cmsTools
             // 
-            this.cmsTools.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.cmsTools.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmlLanguage,
-            this.toolStripMenuItem20,
-            this.tsmlResetDB});
-            this.cmsTools.Name = "cmsTools";
-            this.cmsTools.Size = new System.Drawing.Size(182, 58);
+            cmsTools.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            cmsTools.ImageScalingSize = new System.Drawing.Size(20, 20);
+            cmsTools.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmlLanguage, toolStripMenuItem20, tsmlResetDB });
+            cmsTools.Name = "cmsTools";
+            cmsTools.Size = new System.Drawing.Size(216, 70);
             // 
             // tsmlLanguage
             // 
-            this.tsmlLanguage.Name = "tsmlLanguage";
-            this.tsmlLanguage.Size = new System.Drawing.Size(181, 24);
-            this.tsmlLanguage.Text = "Language";
-            this.tsmlLanguage.Click += new System.EventHandler(this.languageToolStripMenuItem_Click);
+            tsmlLanguage.Name = "tsmlLanguage";
+            tsmlLanguage.Size = new System.Drawing.Size(215, 30);
+            tsmlLanguage.Text = "Language";
+            tsmlLanguage.Click += languageToolStripMenuItem_Click;
             // 
             // toolStripMenuItem20
             // 
-            this.toolStripMenuItem20.Name = "toolStripMenuItem20";
-            this.toolStripMenuItem20.Size = new System.Drawing.Size(178, 6);
+            toolStripMenuItem20.Name = "toolStripMenuItem20";
+            toolStripMenuItem20.Size = new System.Drawing.Size(212, 6);
             // 
             // tsmlResetDB
             // 
-            this.tsmlResetDB.Name = "tsmlResetDB";
-            this.tsmlResetDB.Size = new System.Drawing.Size(181, 24);
-            this.tsmlResetDB.Text = "Reset Database";
-            this.tsmlResetDB.Click += new System.EventHandler(this.resetDBToolStripMenuItem_Click);
+            tsmlResetDB.Name = "tsmlResetDB";
+            tsmlResetDB.Size = new System.Drawing.Size(215, 30);
+            tsmlResetDB.Text = "Reset Database";
+            tsmlResetDB.Click += resetDBToolStripMenuItem_Click;
             // 
             // cmsReports
             // 
-            this.cmsReports.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmlItemReport,
-            this.toolStripSeparator1,
-            this.tsmlStockReport,
-            this.toolStripSeparator2,
-            this.tsmlSalesReport,
-            this.toolStripSeparator3,
-            this.tsmlPurchaseReport,
-            this.toolStripSeparator4,
-            this.tsmlReturnReport,
-            this.toolStripSeparator5,
-            this.tsmlCreditReport,
-            this.toolStripSeparator6,
-            this.tsmlEmployeeReport,
-            this.toolStripMenuItem7,
-            this.tsmlExpenseReport});
-            this.cmsReports.Name = "cmsReports";
-            this.cmsReports.Size = new System.Drawing.Size(144, 238);
+            cmsReports.ImageScalingSize = new System.Drawing.Size(20, 20);
+            cmsReports.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmlItemReport, toolStripSeparator1, tsmlStockReport, toolStripSeparator2, tsmlSalesReport, toolStripSeparator3, tsmlPurchaseReport, toolStripSeparator4, tsmlReturnReport, toolStripSeparator5, tsmlCreditReport, toolStripSeparator6, tsmlEmployeeReport, toolStripMenuItem7, tsmlExpenseReport });
+            cmsReports.Name = "cmsReports";
+            cmsReports.Size = new System.Drawing.Size(166, 286);
             // 
             // tsmlItemReport
             // 
-            this.tsmlItemReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlItemReport.Name = "tsmlItemReport";
-            this.tsmlItemReport.Size = new System.Drawing.Size(143, 24);
-            this.tsmlItemReport.Text = "Items";
-            this.tsmlItemReport.Click += new System.EventHandler(this.toolStripMenuItem25_Click);
+            tsmlItemReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlItemReport.Name = "tsmlItemReport";
+            tsmlItemReport.Size = new System.Drawing.Size(165, 30);
+            tsmlItemReport.Text = "Items";
+            tsmlItemReport.Click += toolStripMenuItem25_Click;
             // 
             // toolStripSeparator1
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(140, 6);
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new System.Drawing.Size(162, 6);
             // 
             // tsmlStockReport
             // 
-            this.tsmlStockReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlStockReport.Name = "tsmlStockReport";
-            this.tsmlStockReport.Size = new System.Drawing.Size(143, 24);
-            this.tsmlStockReport.Text = "Stock";
-            this.tsmlStockReport.Click += new System.EventHandler(this.toolStripMenuItem26_Click);
+            tsmlStockReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlStockReport.Name = "tsmlStockReport";
+            tsmlStockReport.Size = new System.Drawing.Size(165, 30);
+            tsmlStockReport.Text = "Stock";
+            tsmlStockReport.Click += toolStripMenuItem26_Click;
             // 
             // toolStripSeparator2
             // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(140, 6);
+            toolStripSeparator2.Name = "toolStripSeparator2";
+            toolStripSeparator2.Size = new System.Drawing.Size(162, 6);
             // 
             // tsmlSalesReport
             // 
-            this.tsmlSalesReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlSalesReport.Name = "tsmlSalesReport";
-            this.tsmlSalesReport.Size = new System.Drawing.Size(143, 24);
-            this.tsmlSalesReport.Text = "Sales";
-            this.tsmlSalesReport.Click += new System.EventHandler(this.toolStripMenuItem27_Click);
+            tsmlSalesReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlSalesReport.Name = "tsmlSalesReport";
+            tsmlSalesReport.Size = new System.Drawing.Size(165, 30);
+            tsmlSalesReport.Text = "Sales";
+            tsmlSalesReport.Click += toolStripMenuItem27_Click;
             // 
             // toolStripSeparator3
             // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(140, 6);
+            toolStripSeparator3.Name = "toolStripSeparator3";
+            toolStripSeparator3.Size = new System.Drawing.Size(162, 6);
             // 
             // tsmlPurchaseReport
             // 
-            this.tsmlPurchaseReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlPurchaseReport.Name = "tsmlPurchaseReport";
-            this.tsmlPurchaseReport.Size = new System.Drawing.Size(143, 24);
-            this.tsmlPurchaseReport.Text = "Purchase";
-            this.tsmlPurchaseReport.Click += new System.EventHandler(this.toolStripMenuItem28_Click);
+            tsmlPurchaseReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlPurchaseReport.Name = "tsmlPurchaseReport";
+            tsmlPurchaseReport.Size = new System.Drawing.Size(165, 30);
+            tsmlPurchaseReport.Text = "Purchase";
+            tsmlPurchaseReport.Click += toolStripMenuItem28_Click;
             // 
             // toolStripSeparator4
             // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(140, 6);
+            toolStripSeparator4.Name = "toolStripSeparator4";
+            toolStripSeparator4.Size = new System.Drawing.Size(162, 6);
             // 
             // tsmlReturnReport
             // 
-            this.tsmlReturnReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlReturnReport.Name = "tsmlReturnReport";
-            this.tsmlReturnReport.Size = new System.Drawing.Size(143, 24);
-            this.tsmlReturnReport.Text = "Return";
-            this.tsmlReturnReport.Click += new System.EventHandler(this.toolStripMenuItem29_Click);
+            tsmlReturnReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlReturnReport.Name = "tsmlReturnReport";
+            tsmlReturnReport.Size = new System.Drawing.Size(165, 30);
+            tsmlReturnReport.Text = "Return";
+            tsmlReturnReport.Click += toolStripMenuItem29_Click;
             // 
             // toolStripSeparator5
             // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(140, 6);
+            toolStripSeparator5.Name = "toolStripSeparator5";
+            toolStripSeparator5.Size = new System.Drawing.Size(162, 6);
             // 
             // tsmlCreditReport
             // 
-            this.tsmlCreditReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlCreditReport.Name = "tsmlCreditReport";
-            this.tsmlCreditReport.Size = new System.Drawing.Size(143, 24);
-            this.tsmlCreditReport.Text = "Credit";
-            this.tsmlCreditReport.Click += new System.EventHandler(this.toolStripMenuItem30_Click);
+            tsmlCreditReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlCreditReport.Name = "tsmlCreditReport";
+            tsmlCreditReport.Size = new System.Drawing.Size(165, 30);
+            tsmlCreditReport.Text = "Credit";
+            tsmlCreditReport.Click += toolStripMenuItem30_Click;
             // 
             // toolStripSeparator6
             // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(140, 6);
+            toolStripSeparator6.Name = "toolStripSeparator6";
+            toolStripSeparator6.Size = new System.Drawing.Size(162, 6);
             // 
             // tsmlEmployeeReport
             // 
-            this.tsmlEmployeeReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlEmployeeReport.Name = "tsmlEmployeeReport";
-            this.tsmlEmployeeReport.Size = new System.Drawing.Size(143, 24);
-            this.tsmlEmployeeReport.Text = "Employee";
-            this.tsmlEmployeeReport.Click += new System.EventHandler(this.toolStripMenuItem31_Click);
+            tsmlEmployeeReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlEmployeeReport.Name = "tsmlEmployeeReport";
+            tsmlEmployeeReport.Size = new System.Drawing.Size(165, 30);
+            tsmlEmployeeReport.Text = "Employee";
+            tsmlEmployeeReport.Click += toolStripMenuItem31_Click;
             // 
             // toolStripMenuItem7
             // 
-            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(140, 6);
+            toolStripMenuItem7.Name = "toolStripMenuItem7";
+            toolStripMenuItem7.Size = new System.Drawing.Size(162, 6);
             // 
             // tsmlExpenseReport
             // 
-            this.tsmlExpenseReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tsmlExpenseReport.Name = "tsmlExpenseReport";
-            this.tsmlExpenseReport.Size = new System.Drawing.Size(143, 24);
-            this.tsmlExpenseReport.Text = "Expenses";
-            this.tsmlExpenseReport.Click += new System.EventHandler(this.expenseToolStripMenuItem_Click);
+            tsmlExpenseReport.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            tsmlExpenseReport.Name = "tsmlExpenseReport";
+            tsmlExpenseReport.Size = new System.Drawing.Size(165, 30);
+            tsmlExpenseReport.Text = "Expenses";
+            tsmlExpenseReport.Click += expenseToolStripMenuItem_Click;
             // 
             // Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1212, 467);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.IsMdiContainer = true;
-            this.Name = "Principal";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Express POS Sistema de Gestión de Inventario";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMDIParent_FormClosing);
-            this.Load += new System.EventHandler(this.frmMDIParent_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panelTrading.ResumeLayout(false);
-            this.cmsSetUp.ResumeLayout(false);
-            this.cmsStock.ResumeLayout(false);
-            this.cmsSale.ResumeLayout(false);
-            this.cmsPurchase.ResumeLayout(false);
-            this.cmsReturn.ResumeLayout(false);
-            this.cmsItem.ResumeLayout(false);
-            this.cmsCredit.ResumeLayout(false);
-            this.cmsEmployee.ResumeLayout(false);
-            this.cmsTools.ResumeLayout(false);
-            this.cmsReports.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(1616, 718);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            IsMdiContainer = true;
+            Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            Name = "Principal";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            Text = "Express POS Sistema de Gestión de Inventario";
+            WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            FormClosing += frmMDIParent_FormClosing;
+            Load += frmMDIParent_Load;
+            panel1.ResumeLayout(false);
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            panel3.ResumeLayout(false);
+            panelTrading.ResumeLayout(false);
+            cmsSetUp.ResumeLayout(false);
+            cmsStock.ResumeLayout(false);
+            cmsSale.ResumeLayout(false);
+            cmsPurchase.ResumeLayout(false);
+            cmsReturn.ResumeLayout(false);
+            cmsItem.ResumeLayout(false);
+            cmsCredit.ResumeLayout(false);
+            cmsEmployee.ResumeLayout(false);
+            cmsTools.ResumeLayout(false);
+            cmsReports.ResumeLayout(false);
+            ResumeLayout(false);
         }
         #endregion
 
